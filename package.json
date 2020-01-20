@@ -19,6 +19,7 @@
     "react": "^16.12.0",
     "react-chartjs-2": "^2.8.0",
     "react-dom": "^16.12.0",
+    "remotestoragejs": "^1.2.2",
     "styled-components": "^5.0.0"
   }
 }

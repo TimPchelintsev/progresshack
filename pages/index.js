@@ -1,11 +1,13 @@
+import React from 'react'
 import Page from '../components/Page'
-import Progress from '../components/Progress'
-const Home = () => {
+import Home from '../components/Home'
+
+const HomePage = () => {
   return (
     <Page title='Home'>
-      <Progress />
+      <Home />
     </Page>
   )
 }
 
-export default Home
+export default HomePage

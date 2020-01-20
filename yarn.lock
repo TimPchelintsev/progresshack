@@ -5011,6 +5011,15 @@ regjsparser@^0.6.0:
   dependencies:
     jsesc "~0.5.0"
 
+remotestoragejs@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/remotestoragejs/-/remotestoragejs-1.2.2.tgz#7ceb6fc43588b61bb1d0f6ba9fdeb74189a06c2c"
+  integrity sha512-PfWUb82aBzej7GjPHbgTPc3kfooL9RRJFl90Ad5QF4YTQwLoZIc9aUchkFFNKPIS0quIPwCeH0Ff16dXr9j0lA==
+  dependencies:
+    tv4 "^1.3.0"
+    webfinger.js "^2.7.0"
+    xhr2 "^0.1.4"
+
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
@@ -5639,6 +5648,11 @@ tty-browserify@0.0.0:
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
   integrity sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=
 
+tv4@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/tv4/-/tv4-1.3.0.tgz#d020c846fadd50c855abb25ebaecc68fc10f7963"
+  integrity sha1-0CDIRvrdUMhVq7JeuuzGj8EPeWM=
+
 typedarray-to-buffer@^3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/typedarray-to-buffer/-/typedarray-to-buffer-3.1.5.tgz#a97ee7a9ff42691b9f783ff1bc5112fe3fca9080"
@@ -5843,6 +5857,13 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
+webfinger.js@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/webfinger.js/-/webfinger.js-2.7.0.tgz#403354a14a65aeeba64c1408c18a387487cea106"
+  integrity sha512-l+UtsuV4zrBKyVAj9VCtwWgscTgadCsdGgL1OvbV102cvydWwJCGXlFIXauzWLzfheIDHfPNRWfgMuwyC6ZfIA==
+  dependencies:
+    xhr2 "^0.1.4"
+
 webpack-dev-middleware@3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-3.7.0.tgz#ef751d25f4e9a5c8a35da600c5fda3582b5c6cff"
@@ -5948,6 +5969,11 @@ write-file-atomic@^3.0.0:
     is-typedarray "^1.0.0"
     signal-exit "^3.0.2"
     typedarray-to-buffer "^3.1.5"
+
+xhr2@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/xhr2/-/xhr2-0.1.4.tgz#7f87658847716db5026323812f818cadab387a5f"
+  integrity sha1-f4dliEdxbbUCYyOBL4GMras4el8=
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
