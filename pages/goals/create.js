@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import Page from '../../components/Page'
-import GoalsCreate from '../../components/Goals/create'
+import GoalsCreate from '../../components/goals/create'
 
 import initApi from '../../lib/api'
 

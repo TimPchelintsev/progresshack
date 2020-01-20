@@ -1,6 +1,6 @@
 import React from 'react'
 import Page from '../../components/Page'
-import GoalsList from '../../components/Goals/list'
+import GoalsList from '../../components/goals/list'
 
 import initApi from '../../lib/api'
 
